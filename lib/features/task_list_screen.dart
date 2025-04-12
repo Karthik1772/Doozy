@@ -1,5 +1,5 @@
-import 'package:demo/core/models/task.dart';
-import 'package:demo/core/providers/task_provider.dart';
+import 'package:Doozy/core/models/task.dart';
+import 'package:Doozy/core/providers/task_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

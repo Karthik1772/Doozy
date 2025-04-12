@@ -1,4 +1,4 @@
-import 'package:demo/features/task_list_screen.dart';
+import 'package:Doozy/features/task_list_screen.dart';
 import 'package:flutter/material.dart';
 
 class Routes {

@@ -1,7 +1,6 @@
-// import 'package:demo/core/common/notification_service.dart';
-import 'package:demo/core/providers/task_provider.dart';
-import 'package:demo/core/routes/generated_routes.dart';
-import 'package:demo/core/themes/app_theme.dart';
+import 'package:Doozy/core/providers/task_provider.dart';
+import 'package:Doozy/core/routes/generated_routes.dart';
+import 'package:Doozy/core/themes/app_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

@@ -1,4 +1,4 @@
-import 'package:demo/core/models/task.dart';
+import 'package:Doozy/core/models/task.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:uuid/uuid.dart';
