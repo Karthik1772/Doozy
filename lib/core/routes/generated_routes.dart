@@ -1,4 +1,4 @@
-import 'package:Doozy/features/homepage.dart';
+import 'package:Doozy/features/homepage/homepage.dart';
 import 'package:Doozy/features/splash/splash.dart';
 import 'package:flutter/material.dart';
 
