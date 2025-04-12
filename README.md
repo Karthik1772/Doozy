@@ -1,4 +1,4 @@
-# demo
+# Doozy
 
 A new Flutter project.
 
