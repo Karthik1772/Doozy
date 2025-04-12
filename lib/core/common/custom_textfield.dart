@@ -7,6 +7,7 @@ class CustomTextField extends StatefulWidget {
   final bool isObscure;
   final bool isPasswordField;
   final TextInputType keyboardType;
+
   const CustomTextField({
     super.key,
     required this.controller,
@@ -22,6 +23,7 @@ class CustomTextField extends StatefulWidget {
 
 class _CustomTextFieldState extends State<CustomTextField> {
   late bool isObscure;
+
   @override
   void initState() {
     isObscure = widget.isObscure;
@@ -31,17 +33,30 @@ class _CustomTextFieldState extends State<CustomTextField> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(left: 20, right: 20),
+      margin: EdgeInsets.only(left: 10, right: 10),
       width: MediaQuery.of(context).size.width,
       child: TextField(
+        style: TextStyle(color: AppColors.yellow),
         keyboardType: widget.keyboardType,
         controller: widget.controller,
-        cursorColor: AppColors.orange,
+        cursorColor: AppColors.yellow,
         cursorHeight: 18,
         obscureText: isObscure,
         decoration: InputDecoration(
-          hintStyle: TextStyle(color: AppColors.lightorange),
           hintText: widget.hint,
+          hintStyle: TextStyle(color: AppColors.yellow),
+          enabledBorder: OutlineInputBorder(
+            borderRadius: BorderRadius.circular(12),
+            borderSide: BorderSide(color: AppColors.yellow, width: 1),
+          ),
+          focusedBorder: OutlineInputBorder(
+            borderRadius: BorderRadius.circular(12),
+            borderSide: BorderSide(color: AppColors.yellow, width: 1),
+          ),
+          border: OutlineInputBorder(
+            borderRadius: BorderRadius.circular(12),
+            borderSide: BorderSide(color: AppColors.yellow, width: 1),
+          ),
         ),
       ),
     );

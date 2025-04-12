@@ -27,11 +27,12 @@ class _CustomButtons extends State<CustomButtons> {
     return Container(
       height: 40,
       width: widget.width,
-      margin: EdgeInsets.only(left: 20, right: 20),
+      margin: EdgeInsets.only(left: 10, right: 10),
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
           fixedSize: Size(MediaQuery.of(context).size.width, 50),
           shape: RoundedRectangleBorder(
+            side: BorderSide(color: AppColors.yellow, width: 1),
             borderRadius: BorderRadius.circular(20),
           ),
         ),
@@ -49,7 +50,7 @@ class _CustomButtons extends State<CustomButtons> {
                 : Text(
                   widget.text,
                   style: GoogleFonts.varelaRound(
-                    color: AppColors.white,
+                    color: AppColors.yellow,
                     fontSize: widget.textSize,
                     fontWeight: FontWeight.w600,
                   ),

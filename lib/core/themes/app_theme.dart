@@ -12,32 +12,32 @@ class AppTheme {
   static final ThemeData lightTheme = ThemeData.light(
     useMaterial3: true,
   ).copyWith(
-    scaffoldBackgroundColor: AppColors.white,
+    scaffoldBackgroundColor: AppColors.yellow,
     appBarTheme: AppBarTheme(
       //__________________________________________________________APP_BAR
-      backgroundColor: AppColors.orange,
-      iconTheme: IconThemeData(color: AppColors.white),
-      actionsIconTheme: IconThemeData(color: AppColors.white),
+      backgroundColor: AppColors.blue,
+      iconTheme: IconThemeData(color: AppColors.yellow),
+      actionsIconTheme: IconThemeData(color: AppColors.yellow),
       elevation: 0,
       titleTextStyle: GoogleFonts.poppins(
-        color: AppColors.white,
+        color: AppColors.yellow,
         fontSize: 18,
         fontWeight: FontWeight.w600,
       ),
     ),
     inputDecorationTheme: InputDecorationTheme(
       //_____________________________________TEXT_FIELD
-      suffixIconColor: AppColors.orange,
-      prefixIconColor: AppColors.orange,
+      suffixIconColor: AppColors.blue,
+      prefixIconColor: AppColors.blue,
       errorBorder: _borderTheme(AppColors.red, 2),
-      focusedBorder: _borderTheme(AppColors.orange, 2),
+      focusedBorder: _borderTheme(AppColors.blue, 2),
       enabledBorder: _borderTheme(),
       disabledBorder: _borderTheme(),
       border: _borderTheme(),
     ),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ButtonStyle(
-        backgroundColor: const WidgetStatePropertyAll(AppColors.orange),
+        backgroundColor: const WidgetStatePropertyAll(AppColors.blue),
       ),
     ),
   );

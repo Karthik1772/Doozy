@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         theme: AppTheme.lightTheme,
         darkTheme: AppTheme.lightTheme,
         onGenerateRoute: Routes.onGenerate,
-        initialRoute: "/home",
+        initialRoute: "/splash",
       ),
     );
   }
