@@ -1,4 +1,4 @@
-# Doozy
+# doozy
 
 A new Flutter project.
 

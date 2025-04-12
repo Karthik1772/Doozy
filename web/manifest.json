@@ -1,6 +1,6 @@
 {
-    "name": "Doozy",
-    "short_name": "Doozy",
+    "name": "doozy",
+    "short_name": "doozy",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
